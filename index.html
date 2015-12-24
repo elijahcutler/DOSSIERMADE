@@ -1,1 +1,69 @@
-Hello World
+
+
+
+<h1>
+  Hello World
+</h1>
+
+<p>
+  JUST RELEASED: <a href="#">"DOG" Long Sleeve</a>
+</p>
+
+<style type="text/css">
+#wrapper {
+	background-color: #FF272B;
+	height: 324px;
+	width: 924px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#prev {
+	background-color: #000;
+	background-image: url(https://www.dropbox.com/s/whogehazy6fd9c3/previous_button.png?raw=1);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height: 320px;
+	width: 62px;
+}
+#slider {
+	float: left;
+	height: 320px;
+	width: 800px;
+	overflow: hidden;
+}
+#next {
+	background-color: #000;
+	float: left;
+	height: 320px;
+	width: 62px;
+	background-image: url(https://www.dropbox.com/s/unmzix3otnu8nib/next_button.png?raw=1);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+$('#slider').cycle({ 
+    fx:     'fade', 
+    fx:		'scrollHorz',
+    next:   '#next', 
+    prev:   '#prev' 
+});
+</script>
+
+<body>
+<div id="wrapper">
+  <div id="prev"></div>
+  <div id="slider"> 
+      <img src="https://www.dropbox.com/s/2lz4ttm0lcd84m9/image1.jpg?raw=1" width="800" height="320" />
+      <img src="https://www.dropbox.com/s/p8y4wnrjs6ldzys/image2.jpg?raw=1" width="800" height="320" />
+      <img src="https://www.dropbox.com/s/slxjahamv35x2bl/image3.jpg?raw=1" width="800" height="320" />
+  </div>
+  <div id="next"></div>
+</div>
+</body>
+
+
