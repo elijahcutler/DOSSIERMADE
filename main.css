@@ -1,0 +1,83 @@
+@charset  "utf-8";
+/* CSS Document */
+body {
+	background-color: #000;
+}
+
+img {
+	padding: 25%;
+}
+
+.showlink {
+    color: #white;
+}
+
+.showlink.hovered {
+    color: #b4f5cf;
+}
+
+#header {
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Arimo',Arial,sans-serif;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px grey;
+}
+
+ul {
+	list-style-type: none;
+	margin-right: 20px;
+	overflow: hidden;
+	background-color: none;
+}
+
+#titleNav {
+	padding-left: 25%;
+	padding-right: 25%;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Arimo',Arial,sans-serif;
+	text-align: left;
+}
+
+li a {
+	outline: 0;
+	display: block;
+	color: #fff;
+	padding: 25px;
+	text-decoration: none;
+}
+
+li h1 {
+	width: auto;
+	position: absolute;
+	left: 50%;
+	bottom: 87%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 10%;
+	min-height: 10%;
+	width: 740px;
+	height: 456px;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(20percentPT1.jpg) no-repeat;
+	background-size: cover;
+}

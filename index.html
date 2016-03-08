@@ -1,85 +1,68 @@
-<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
 
-<h1 class="white-text">
-  Hello World
-</h1>
-
-<p class="white-text">
-  JUST RELEASED: <a href="#">"DOG" Long Sleeve</a>
-</p>
-
-<style type="text/css">
-
- body {
- 	background:black;
-    }
-    
-    .white-text {
-    	color: white;
-    }
-    
-    h1 {
-    	font-family: Lobster, Monospace;
-    	font-size: 48px;
-    	
-    }
-    
-#wrapper {
-	background-color: #000;
-	height: 324px;
-	width: 924px;
-	margin-right: auto;
-	margin-left: auto;
-}
-#prev {
-	background-color: #000;
-	background-image: url(https://www.dropbox.com/s/whogehazy6fd9c3/previous_button.png?raw=1);
-	background-repeat: no-repeat;
-	background-position: center;
-	float: left;
-	height: 320px;
-	width: 62px;
-}
-#slider {
-	float: left;
-	height: 320px;
-	width: 800px;
-	overflow: hidden;
-}
-#next {
-	background-color: #000;
-	float: left;
-	height: 320px;
-	width: 62px;
-	background-image: url(https://www.dropbox.com/s/unmzix3otnu8nib/next_button.png?raw=1);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-</style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://www.dropbox.com/s/l4r6si0qoevo953/jquery.cycle.all.js?raw=1"></script>
-
-<script type="text/javascript">
-$('#slider').cycle({ 
-    fx:     'fade', 
-    fx:		'scrollHorz',
-    next:   '#next', 
-    prev:   '#prev' 
-});
-</script>
+  <title>20percent</title>
+</head>
 
 <body>
-<div id="wrapper">
-  <div id="prev"></div>
-  <div id="slider"> 
-      <img src="https://www.dropbox.com/s/2lz4ttm0lcd84m9/image1.jpg?raw=1" width="800" height="320" />
-      <img src="https://www.dropbox.com/s/p8y4wnrjs6ldzys/image2.jpg?raw=1" width="800" height="320" />
-      <img src="https://www.dropbox.com/s/slxjahamv35x2bl/image3.jpg?raw=1" width="800" height="320" />
+
+  <ul>
+    <li><a href="#content" id="getLemed" class="showlink">Content</a></li>
+    <li><a href="#lookbook" id="getMemed" class="showlink">Lookbook</a></li>
+
+
+    <ul style="float:right;list-style-type:none;">
+      <li><a href="#" class="showlink">Explore</a></li>
+      <li><a href="#" class="showlink">Contact</a></li>
+    </ul>
+    <ul id="titleNav">
+      <li>
+        <h1 id="header">DOSSIER</h1></li>
+    </ul>
+
+  </ul>
+
+  <div id="leftLookbook" style="float:left; overflow: hidden; display:none; margin:50px;">
+    <img src="http://goo.gl/QSo1Dh" width="128" height="128">
+    <br>
+    <img src="http://goo.gl/QSo1Dh" width="128" height="128">
+    <br>
   </div>
-  <div id="next"></div>
-</div>
+  <div id="rightLookbook" style="float:right; display:none; margin:50px;">
+    <img src="http://goo.gl/QSo1Dh" width="128" height="128">
+    <br>
+    <img src="http://goo.gl/QSo1Dh" width="128" height="128">
+    <br>
+  </div>
+
+  <div id="leftContent" style="float:left; overflow: hidden; display:none; margin:50px;">
+    <img src="https://goo.gl/ToQsRH" width="128" height="128">
+    <br>
+    <img src="https://goo.gl/ToQsRH" width="128" height="128">
+    <br>
+  </div>
+  <div id="rightContent" style="float:right; display:none; margin:50px;">
+    <img src="https://goo.gl/ToQsRH" width="128" height="128">
+    <br>
+    <img src="https://goo.gl/ToQsRH" width="128" height="128">
+    <br>
+  </div>
+
+
+ <<video autoplay loop poster="20PT1.jpg" id="bgvid">
+
+    <source src="20PT1full.webm" type="video/webm">
+    <source src="20PT1full.mp4" type="video/mp4"> </video>
+
 </body>
 
 
+</html>
