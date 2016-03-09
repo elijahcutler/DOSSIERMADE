@@ -1,7 +1,7 @@
 // JavaScript Document
 $( document ).ready(function() {
   
-  $("#getRemed").click(function() {
+  $("#header").click(function() {
 
   $("#leftContent").fadeOut(1500, function() {
     //Once the fadeout is complete, call fadein function
