@@ -1,18 +1,5 @@
 // JavaScript Document
 $( document ).ready(function() {
-  
-  $("#header").click(function() {
-
-  $("#leftContent").fadeOut(1500, function() {
-    //Once the fadeout is complete, call fadein function
-    $("#leftLookbook").fadeOut(1500, function() {});
-  });
-
-  $("#rightContent").fadeOut(1500, function() {
-    $("#rightLookbook").fadeOut(1500, function() {});
-  });
-});
-  
 $("#getMemed").click(function() {
 
   $("#leftContent").fadeOut(1500, function() {
