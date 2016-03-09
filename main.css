@@ -10,6 +10,11 @@ img {
 
 .showlink {
     color: #white;
+    outline: 0;
+    display: block;
+	color: #fff;
+	padding: 25px;
+	text-decoration: none;
 }
 
 .showlink.hovered {
@@ -46,11 +51,7 @@ li {
 }
 
 li a {
-	outline: 0;
-	display: block;
-	color: #fff;
-	padding: 25px;
-	text-decoration: none;
+
 }
 
 li h1 {
